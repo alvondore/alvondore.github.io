@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Joe's Amazing Website </title>
+        <style>
+    body {
+        background: rgb(0, 0, 0);
+        color: rgb(45, 45, 45);
+        padding: 10px;
+        font-family: arial;
+    }
+    header {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(242, 213, 29);
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    nav header {
+        display: flex;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        flex: 1;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(255, 255, 255);
+        display: flex;
+        border-radius: 15px;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+        border-radius: 15px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    .interests header {
+        font-size: 1.25em;
+    }
+</style>
+    </head>
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header>Joe's Joyful Website</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/42860141_10155949622412711_3215823644387180544_n.jpg?_nc_cat=109&_nc_sid=8024bb&_nc_oc=AQlv6g9DLZF5P3rOaiebTzYPtyiEsf0an-ac1qqzfuQFZNT8QqCr1LuRNmNSKAUrQ0U&_nc_ht=scontent-atl3-1.xx&oh=fda11cff1ace434f6ee5ad798db27426&oe=5EA7D1E5">
+                    
+                </div>
+                
+                <div class="content">
+                    <header> Henry "Joe" Anderson</header>
+                    <p>Student at Operation Spark</p>
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Reading</li>
+                            <li>Learning/Teaching</li>
+                            <li>Tattoos</li>
+                        </ul>
+                        
+                    </section>
+                    
+                </div>
+            </main>
+        </div>
+
+    </body>
+</html>
